@@ -12,7 +12,7 @@ public class Startlocation : MonoBehaviour
             decidedLocation = "Newly Formed Island Nation";
         else if (Mathf.RoundToInt(number) == 1)
             decidedLocation = "Newly Formed Island Colony";
-        else if (Mathf.RoundToInt(number) == 0)
+        else if (Mathf.RoundToInt(number) == 2)
             decidedLocation = "Newly Formed Island Rebellion";
     }
 
