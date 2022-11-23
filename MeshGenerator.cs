@@ -83,8 +83,8 @@ void CreateShape()
                         pointT.position = vertices[verticeCheck];
                         Instantiate(point, pointT.position, Quaternion.Euler(90, 0, 0));
                         Debug.LogWarning(xzPos[verticeTally].x);
-                        triangles = new int[verticeCount];
                         triangles = new int[verticeCheck];
+                        triangles = new int[verticeCount];
                         verticeCheck++;
                         if (xzPos[CountUp].x > startpoint.x)
                         {
