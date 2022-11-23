@@ -89,6 +89,7 @@ void CreateShape()
                         if (xzPos[CountUp].x > startpoint.x)
                         {
                             startpoint.x = xzPos[CountUp].x;
+                            startpoint.z = xzPos[CountUp].y;
                         }
 
 
